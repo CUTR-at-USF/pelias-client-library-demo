@@ -32,7 +32,7 @@ public class PeliasClientDemo {
      * @param args
      */
     public static void main(String[] args) throws IOException {
-        String apiKey = "search-YOUR-KEY_HERE";
+        String apiKey = "search-YOUR_KEY_HERE";
         String text = "London";
         SearchResponse response = new SearchRequest.Builder(apiKey, text).build().call();
         System.out.println(response.toString());
