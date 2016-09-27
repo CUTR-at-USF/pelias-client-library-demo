@@ -6,7 +6,7 @@ A demo project showing how to use the [pelias-client-library](https://github.com
 The below example shows how to call the Pelias Search API - this same code is in the `PeliasClientDemo` class in this project:
 
 ~~~
-String apiKey = "search-YOUR-KEY_HERE";
+String apiKey = "search-YOUR_KEY_HERE";
 String text = "London";
 SearchResponse response = new SearchRequest.Builder(apiKey, text).build().call();
 System.out.println(response.toString());
